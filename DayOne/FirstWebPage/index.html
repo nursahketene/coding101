@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Recruiters</h1>
+            <p>Welcome to introduction to coding</p>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Coding 101</h1>
+        <i id="author"></i>
+        <button id="showAuthor" onclick="showAuthor()">Show Author</button>
+        <p class="font-size-24">
+            At Recruiters’ Coding School, you’ll concretely dive into the world of coding with a nice balance of theory
+            and
+            hands-on practice. By joining you’ll gain a deeper industry knowledge which leads to richer discussions with
+            your candidates – not to mention the improved candidate experience!
+        </p>
+        <p class="font-size-16 txt-light-black">
+            Talented is the talent agency for experienced developers and designers. We’re here to find the most
+            interesting
+            companies and projects for you.
+        </p>
+        <p class="font-size-16 txt-light-black">
+            Talented specializes in offering tailored career possibilities for experienced developers and members of
+            software
+            development teams. Unlike most Talent Agencies, our focus is on your needs. We fulfil developers and
+            designers’
+            dreams, not companies’ open positions.
+        </p>
+        <div>
+            <a href="https://talented.fi/recruiterscodingschool/">Sign up page</a>
+        </div>
+        <img src="https://talented.fi/wp-content/uploads/2019/08/nur.jpg" alt="Nurs image" />
+        <h2>Program</h2>
+        <ul>
+            <li>Intorduction to terminal</li>
+            <li id="secondListElement">Basics of internet</li>
+            <li>First web page</li>
+            <li>Into to programming</li>
+            <li>First web application</li>
+            <li>Introduction to version control</li>
+            <li>Introduction to databases</li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function showAuthor(event) {
+        document.getElementById('author').innerText = 'Nur Ketene';
+        document.getElementById('showAuthor').style.display = 'none';
+    }
+</script>
