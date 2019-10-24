@@ -25,13 +25,13 @@ In this phase we are going to go through the following
 
 >> CODE
 
-Ok lets create a file named index.html by;
+Ok let's create a file named index.html by;
 
 Open Visual Studio Code and from the `File` menu option choose `New File`
 
 Enter the name of the file `index.html` and click `Save`
 
-Now lets create a
+Now let's create a
 
 `<h1></h1>`
 
@@ -56,7 +56,7 @@ At Recruiters’ Coding School, you’ll concretely dive into the world of codin
 ```
 
 
-Ok so we have a heading and a paragraph lets add an image
+Ok so we have a heading and a paragraph let's add an image
 
 ```
 <img src="https://talented.fi/wp-content/uploads/2019/08/nur.jpg" alt="Nurs image">
@@ -89,33 +89,33 @@ Next lest try to add a list.
 
 >> CODE CSS
 
-So lets add some style to our elements.
+So let's add some style to our elements.
 
-Lets increase the font of the text in the paragraph to 24px
+Let's increase the font of the text in the paragraph to 24px
 
 ```
 <p style="font-size: 24px;">
 ```
 
-Now lets turn the color to of the H1 to a shade of blue
+Now let's turn the color to of the H1 to a shade of blue
 
 ```
 <h1 style="color: dodgerBlue">
 ```
 
-Lets also increase the font size of the link and remove the underscore and change the color to blue.
+Let's also increase the font size of the link and remove the underscore and change the color to blue.
 
 ```
 <a style="font-size: 24px; text-decoration: none; color: dodgerblue;"
 ```
 
-Lets change the size of the image
+Let's change the size of the image
 
 ```
 <img style="height: 200px;"
 ```
 
-Lets add some margins and width to the document body
+Let's add some margins and width to the document body
 
 ```
 <body style="margin-top: 20px; margin-left: auto; margin-right: auto; width: 1200px;">
@@ -129,7 +129,7 @@ Lets add some margins and width to the document body
 * Change background colour
 
 
-Now that we got the basic understanding of adding structure and design lets talk why it is not a very good idea to have styles embedded in the HTML tags.
+Now that we got the basic understanding of adding structure and design let's talk why it is not a very good idea to have styles embedded in the HTML tags.
 
 * Bad practice
 * Difficult to maintain
@@ -139,15 +139,15 @@ Now that we got the basic understanding of adding structure and design lets talk
 
 So to remedy this issue we need to seperate the CSS from the HTML
 
-So lets start by creating a file.
+So let's start by creating a file.
 
 In your Visual Studio Code click `File` from the menu bar and select `New File`
 
 Enter the name `main.css` and save
 
-Next lets add a style to our main.css and see how to connect the html files with the css file
+Next let's add a style to our main.css and see how to connect the html files with the css file
 
-in your `main.css` file lets change the font for the document
+in your `main.css` file let's change the font for the document
 
 ```css
 body {
@@ -185,7 +185,7 @@ But the problem what if we have more than one paragraph or more than 1 header wh
 
 Enter HTML Class and Id attributes
 
-Lets start with Classes.
+Let's start with Classes.
 
 The class attribute specifies one or more classnames for an element.
 
@@ -197,7 +197,7 @@ So how does it work.
 
 Open up your Visual Studio Code and open index.html
 
-Lets add some more paragraphs under the paragraph that we already have
+Let's add some more paragraphs under the paragraph that we already have
 
 ```html
 <p>Talented is the talent agency for experienced developers and designers. We’re here to find the most interesting companies and projects for you.
@@ -206,7 +206,7 @@ Lets add some more paragraphs under the paragraph that we already have
 </p>
 ```
 
-Next lets add a class to each of our paragraphs a different font-size
+Next let's add a class to each of our paragraphs a different font-size
 
 The first paragraph
 ```html
@@ -218,13 +218,13 @@ The second and third paragrapsh
 <p class="font-size-16">
 ```
 
-Next lets turn our second and 3rd paragraphs to have a lighter font color
+Next let's turn our second and 3rd paragraphs to have a lighter font color
 
 ```html
 <p class="font-size-16 txt-light-black">
 ```
 
-Now lets head to `main.css` and remove the paragraph style
+Now let's head to `main.css` and remove the paragraph style
 and edit our style sheet to apply those styles
 
 ```css
@@ -241,7 +241,7 @@ and edit our style sheet to apply those styles
 }
 ```
 
-Ok next lets look at HTML `ID` attribute
+Ok next let's look at HTML `ID` attribute
 
 The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).
 
@@ -249,16 +249,16 @@ The id value can be used by CSS and JavaScript to perform certain tasks for the 
 
 Ok so basically with classes you target all elements which has the same class attribute. The `ID` attribute would allow us to target a single specific element.
 
-Ok so lets see how it is used.
+Ok so let's see how it is used.
 
-We have bunch of list elements. Lets target the second list element so it has a different color and a strike through.
+We have bunch of list elements. Let's target the second list element so it has a different color and a strike through.
 
 in index.html
 ```html
 <li id="secondListElement">Basics of internet</li>
 ```
 
-Now lets add the style
+Now let's add the style
 
 in main.css
 ```css
@@ -268,7 +268,7 @@ in main.css
 }
 ```
 
-Ok lets take it a notch more interesting and add a hero element
+Ok let's take it a notch more interesting and add a hero element
 
 In index.html add the following to the top
 
@@ -314,14 +314,14 @@ Add the following styles under the body element style rules
 
 Ok thats nice but I would like the image to be streched and the content to be narrow
 
-So first lets add a div element and put all of our content inside the div element and give it a class `content` so we can style it in the style sheet
+So first let's add a div element and put all of our content inside the div element and give it a class `content` so we can style it in the style sheet
 
 ```html
 <div class="content">
     <h1>Coding 101</h1>
 ```
 
-Next lets change the `body, html` properties
+Next let's change the `body, html` properties
 
 ```css
 body, html {
@@ -332,7 +332,7 @@ body, html {
 }
 ```
 
-Next lets add a rule for `content` element
+Next let's add a rule for `content` element
 
 ```css
 .content {
@@ -370,7 +370,7 @@ This will calculate 5 + 4 and return to you the result.
 
 Congrats you have wrote yoru first line of code.
 
-Ok so lets write our first script
+Ok so let's write our first script
 
 in the `index.html` page add the following;
 
@@ -392,7 +392,7 @@ document.getElementById('author').innerText = 'Nur Ketene'
 ```
 
 Alright what is happening here?
-Lets go step by step.
+Let's go step by step.
 
 
 First with `document` we are getting the HTML document `object`
@@ -407,9 +407,9 @@ This element has also some properties. One of them is called `innerText`.
 
 In this case we are setting the value of the element with the `author` id by assigning `=` the string value `Nur Ketene`
 
-Ok nice so lets try to add more interactivity by letting the user to show and hide the author name
+Ok nice so let's try to add more interactivity by letting the user to show and hide the author name
 
-First lets add the button to show the author.
+First let's add the button to show the author.
 
 in your `index.html` file
 
@@ -423,7 +423,7 @@ If you go ahead now and refresh the page and click the button nothing will happe
 <button id="showAuthor" onclick="showAuthor()">Show Author</button>
 ```
 
-Nice we are now triggering an event called `showAuthor()` but that event doesn't exist yet. So lets create it
+Nice we are now triggering an event called `showAuthor()` but that event doesn't exist yet. So let's create it
 
 At the bottom of your `index.html` add the following to the bottom of the page
 
@@ -437,7 +437,7 @@ At the bottom of your `index.html` add the following to the bottom of the page
 
 Alright now if you go ahead and refresh the page and click the button you will see the author name but the button is still there. It would be maybe better to hide that button.
 
-So lets edit our event as the following by adding a new line to hide the element with id `showAuthor` button
+So let's edit our event as the following by adding a new line to hide the element with id `showAuthor` button
 
 ```html
 <script>
