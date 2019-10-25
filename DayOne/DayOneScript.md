@@ -268,6 +268,9 @@ in main.css
 }
 ```
 
+
+>> THIS IS WHERE WE LEFT THE FIRST DAY
+
 Ok let's take it a notch more interesting and add a hero element
 
 In index.html add the following to the top
