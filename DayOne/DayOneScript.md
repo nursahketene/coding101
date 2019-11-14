@@ -348,7 +348,7 @@ Next let's add a rule for `content` element
 Now our page should a little nicer.
 
 ### Excersize (30 min)
-* Change the style of the header and paragraph in the hero element with classes
+* Change the style of the header and paragraph with classes
 * Add 3 new html element tags from the this list https://www.w3schools.com/tags/default.asp
 * Add styles to those elements
 

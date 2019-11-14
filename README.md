@@ -14,6 +14,9 @@ For installation Instructions Please check [here](./installation.md)
 
 For day one check [here](./DayOne/DayOneScript.md)
 
-Each day will be published on the day itself.
+For day two check [here](./DayTwo/DayTwoScript.md)
+
+For day three check [here](./DayThree/DayThreeScript.md)
+
 
 
