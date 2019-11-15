@@ -18,5 +18,7 @@ For day two check [here](./DayTwo/DayTwoScript.md)
 
 For day three check [here](./DayThree/DayThreeScript.md)
 
+Password: XsfKER2BOSmwT4Of
+
 
 
